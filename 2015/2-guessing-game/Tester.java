@@ -7,6 +7,9 @@
  */
 public class Tester
 {
+    /**
+    * Main function for the purpose of testing code
+    */
     public static void main(){
         HiddenWord puzzle = new HiddenWord("HARPS");
         
