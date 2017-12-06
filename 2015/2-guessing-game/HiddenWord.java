@@ -12,12 +12,18 @@ public class HiddenWord
 
     /**
      * Constructor for objects of class HiddenWord
+     @param puzzle the word to be stored as the word to guess
      */
     public HiddenWord(String puzzle)
     {
         this.puzzle = puzzle;
     }
-
+    
+    /**
+     * Checks what part of the guess is partially or entirely correct
+     * @param guess the guess the user gives
+     * @return the correct or partially correct parts of the guess
+     */
     public String getHint(String guess){
         String returnable = "";
         
