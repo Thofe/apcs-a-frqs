@@ -1,7 +1,0 @@
-#BlueJ class context
-comment0.target=Results
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ Results\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
-comment1.params=cube
-comment1.target=Results(NumberCube)
-comment1.text=\r\n\ constructs\ the\ Results\ class\ based\ around\ a\ single\ given\ cube\r\n\ \r\n\ @param\ cube\ a\ cube\ to\ be\ used\r\n
-numComments=2
