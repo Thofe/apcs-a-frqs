@@ -1,0 +1,2 @@
+Optimum Start Time for 7 hours of charging:22
+Optimum Start Time for 2 hours of charging:23

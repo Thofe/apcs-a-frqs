@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Runner
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Runner\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=cube\ numTosses
+comment1.target=int[]\ getCubeTosses(NumberCube,\ int)
+comment1.text=\r\n\ Returns\ an\ array\ of\ values\ obtained\ by\ tossing\ a\ cube\ numTosses\ times\r\n\ \r\n\ @param\ cube\ a\ NumberCube\r\n\ @param\ numTosses\ the\ number\ of\ tosses\ to\ be\ recorded\r\n\ @returns\ an\ array\ of\ the\ results\r\n
+comment2.params=values
+comment2.target=int\ getLongestRun(int[])
+comment2.text=\r\n\ Returns\ the\ starting\ index\ of\ a\ longest\ run\ of\ 2\ or\ more\ consecutive\ related\ values\ in\ the\ array\ values\r\n\ \r\n\ @param\ values\ an\ array\ of\ intergers\ representing\ a\ series\ of\ cube\ tosses\r\n\ \r\n\ @return\ the\ starting\ index\ of\ the\ longest\ run\r\n
+comment3.params=
+comment3.target=void\ main()
+numComments=4
