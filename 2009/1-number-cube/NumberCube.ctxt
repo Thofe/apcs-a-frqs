@@ -1,9 +1,0 @@
-#BlueJ class context
-comment0.target=NumberCube
-comment1.params=high\ low
-comment1.target=NumberCube(int,\ int)
-comment1.text=\r\n\ constructs\ a\ cube\ with\ individual\ side\ values\r\n\ \r\n\ @param\ high\ the\ highest\ value\ on\ a\ cube\r\n\ @param\ low\ the\ lowest\ value\ on\ a\ cube\r\n
-comment2.params=
-comment2.target=int\ toss()
-comment2.text=\r\n\ rolls\ a\ 6\ sided\ cube\r\n
-numComments=3
