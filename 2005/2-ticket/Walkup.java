@@ -11,8 +11,6 @@ public class Walkup extends Ticket
    
     /**
     * Constructs the Walkup class
-    * 
-    * @param numDays the number of days in advance the tiket was purchased
     */
    public Walkup(){
        price = 50;
