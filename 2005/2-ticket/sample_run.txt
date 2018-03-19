@@ -1,0 +1,12 @@
+Number: 16359884
+Price: 50.0
+Number: 169052143
+Price: 30.0
+Number: 23407219
+Price: 40.0
+Number: 101431286
+Price: 15.0
+(student ID required)
+Number: 84526071
+Price: 20.0
+(student ID required)
