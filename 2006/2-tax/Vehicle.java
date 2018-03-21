@@ -11,24 +11,25 @@ public class Vehicle extends TaxableItem
     private int markup;
     
     /**
-     * retuns the list price of the car
-     * 
-     * @param price the price of the car
-     * @param markup the dealer markup on the car
-     * 
-     * @return the list price of the car
-     */
-    public double getListPrice(){
-        return price + markup;
-    }
-    
-    /**
      * Constructs the Vehicle class
+     *
+     * @param price the price of the vehicle
+     * @param markup the dealer markup
+     * @param rate the tax rate on the car
      */
     public Vehicle(int price, int markup, double rate){
         super(rate);
         this.price = price;
         this.markup = markup;
+    }
+    
+    /**
+     * retuns the list price of the car
+     *
+     * @return the list price of the car
+     */
+    public double getListPrice(){
+        return price + markup;
     }
     
     /**
