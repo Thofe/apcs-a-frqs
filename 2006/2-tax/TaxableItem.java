@@ -9,17 +9,19 @@ public abstract class TaxableItem implements Item
 {
     private double taxRate;
     
-    /**
-     * returns the list price
-     */
-    public abstract double getListPrice();
-    
-    /**
+     /**
      * Constructs the TaxableItem task
+     *
+     * @param rate the tax rate of the item
      */
     public TaxableItem(double rate){
         taxRate = rate;
     }
+    
+    /**
+     * returns the list price
+     */
+    public abstract double getListPrice();
     
     /**
      * returns the price of the item including the tax
