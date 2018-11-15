@@ -24,14 +24,16 @@ public class ArrayTester {
 	 * @return if every value in arr1 appears in arr2
 	 */
 	public static boolean hasAllValues(int[] arr1, int[] arr2) {
-		Arrays.sort(arr1);
-		Arrays.sort(arr2);
 		
-		for (int i =0; i < arr1.length; i++){
-			if (Arrays.binarySearch(arr2, arr1[i]) < 0){
-				return false;
-		    }
-		}
+      for(int i: arr1){
+      	boolean has = false;
+        
+        for(int j: arr2){
+          if (j == i) has = true;
+        }
+        
+        if(!has) return false;
+      }
 		  
 		return true;
 	}
